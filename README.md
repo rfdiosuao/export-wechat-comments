@@ -15,6 +15,18 @@
 
 ## 安装 Skill
 
+从 Release 下载已打包的 Skill：
+
+```powershell
+$zip = Join-Path $env:TEMP 'export-wechat-comments-v0.1.0.zip'
+Invoke-WebRequest `
+  'https://github.com/rfdiosuao/export-wechat-comments/releases/download/v0.1.0/export-wechat-comments-v0.1.0.zip' `
+  -OutFile $zip
+Expand-Archive -Force $zip "$env:USERPROFILE\.codex\skills"
+```
+
+或者从源码安装：
+
 ```powershell
 git clone https://github.com/rfdiosuao/export-wechat-comments.git
 Copy-Item -Recurse -Force `
