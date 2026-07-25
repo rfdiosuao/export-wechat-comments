@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信公众号评论导出"
+  short_description: "抓取公众号公开精选留言与回复并导出 Markdown"
+  default_prompt: "使用 $export-wechat-comments 抓取一篇微信公众号文章的公开精选留言和回复并导出 Markdown。"

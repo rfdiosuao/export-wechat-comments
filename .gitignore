@@ -1,0 +1,13 @@
+.sessions/
+dependencies/
+node_modules/
+.venv/
+credentials.json
+capture-state.json
+comments-*.json
+*.log
+*.cer
+*.p12
+*.pem
+*-comments.md
+*-评论.md

@@ -1,0 +1,49 @@
+{
+  "total_count": 5,
+  "elected_comment_total_cnt": 2,
+  "elected_comment": [
+    {
+      "nick_name": "示例用户甲",
+      "content": "这是一条公开测试留言。",
+      "create_time": 1742864663,
+      "like_num": 3,
+      "is_top": 1,
+      "reply_new": {
+        "reply_total_cnt": 2,
+        "reply_list": [
+          {
+            "reply_id": 1,
+            "create_time": 1742864722,
+            "identity_name": "author",
+            "identity_type": 1,
+            "is_from": 2,
+            "nick_name": "示例公众号",
+            "content": "这是作者的公开回复。",
+            "reply_like_num": 2
+          },
+          {
+            "reply_id": 2,
+            "create_time": 1742864788,
+            "identity_name": "reader-b",
+            "identity_type": 0,
+            "is_from": 3,
+            "nick_name": "示例用户乙",
+            "content": "这是另一位用户的公开回复。",
+            "reply_like_num": 0
+          }
+        ]
+      }
+    },
+    {
+      "nick_name": "示例用户丙",
+      "content": "第二条公开测试留言。",
+      "create_time": 1742870187,
+      "like_num": 1,
+      "is_top": 0,
+      "reply_new": {
+        "reply_total_cnt": 1,
+        "reply_list": []
+      }
+    }
+  ]
+}
